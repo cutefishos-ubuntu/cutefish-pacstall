@@ -18,7 +18,7 @@ prepare() {
 }
 
 build() {
-    cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr ..
+    cmake ..
     make -j$(nproc)
 }
 

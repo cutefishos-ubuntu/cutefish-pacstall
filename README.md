@@ -12,7 +12,6 @@
 ### Installing
 
 You can run the command below to install Pacstall.
-You can also grab the deb file [here](https://github.com/pacstall/pacstall/releases/latest) but it may be a bit older.
 ```bash
 sudo bash -c "$(curl -fsSL https://git.io/JsADh || wget -q https://git.io/JsADh -O -)" && sudo pacstall -A https://github.com/cutefishos-ubuntu/cutefish-pacstall
 ```
